@@ -1,6 +1,6 @@
 # AAR file / gitrepositorylib module usage.
 
-Add the gitrepositorylib.aar file to libs folder of the application project.
+Add the gitrepositorylib_aar_file/gitrepositorylib.aar file to libs folder of the application project.
 Include below dependencies.
 
 ```groovy
