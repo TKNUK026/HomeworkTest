@@ -45,7 +45,7 @@ Below permission is required to make a repository call.
 
 # Usage
 - To get the GitHub repository information "items" list in that item object contains name, privacy status, description and language info.
-- Need to call GithubRepositorySDK.getRepositoryInfo(platform, organization) by passing Two parameters.
+- Need to call GithubRepositorySDK.getRepositoryInfo(platform, organization) in background thread by passing Two parameters.
 > - First parameter represents the platform info e.g. android, ios, etc...
 > - Second parameter represents the organization info e.g. orgA, orgB, etc...
  
