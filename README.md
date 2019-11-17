@@ -37,6 +37,11 @@ dependencies {
     implementation 'com.squareup.okhttp3:okhttp:4.2.2'
 }
 ```
+# Permission in AndroidManifest.xml.
+Below permission is required to make a repository call.
+```groovy
+<uses-permission android:name="android.permission.INTERNET" />
+```
 
 # Usage
 - To get the GitHub repository information "items" list in that item object contains name, privacy status, description and language info.
